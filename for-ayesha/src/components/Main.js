@@ -18,7 +18,7 @@ const [getCoupleImage, setGetCoupleImage] = React.useState("");
                 onClick={getOurImage}>
             </button>
             <img src={getCoupleImage} />
-            
+            <img src={require( `${getCoupleImage}` )} />
            
           </div> 
     )
