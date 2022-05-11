@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div >
       <Main />  
-      <img src="C:\Users\erace\scrimba\forAyesha\forAyesha\for-ayesha\src\images\asset1.jpg" /> 
+     
     </div>
   );
 }

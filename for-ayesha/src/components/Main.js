@@ -17,10 +17,11 @@ const [getCoupleImage, setGetCoupleImage] = React.useState("");
             <button 
                 onClick={getOurImage}>
             </button>
-             <img src={getCoupleImage} />
-             <img src="./images/asset1.jpg" />
+            <img src={getCoupleImage} />
+            
+           
           </div> 
     )
 
 }
-/*(for-ayesha\src\images\asset1.jpg)*/
+/*<img src={require('/images/image-name.png')} />*/
