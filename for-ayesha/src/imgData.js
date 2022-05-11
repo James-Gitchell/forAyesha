@@ -3,13 +3,13 @@ export default {
     "data": {
         "ourImg": [
             {
-                "src":"../images/asset1.jpg"
+                "src":"for-ayesha\src\images\asset1.jpg"
             },
             {
-                "src":"../images/asset2.jpg"
+                "src":"for-ayesha\src\images\asset2.jpg"
             },
             {
-                "src":"../images/asset3.jpg"
+                "src":"for-ayesha\src\images\asset3.jpg"
             },
             {
                 "src":"../images/asset4.jpg"

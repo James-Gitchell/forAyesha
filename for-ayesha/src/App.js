@@ -1,13 +1,14 @@
 import React from "react";
 import css from './App.css';
-import Main from "./components/main"
+import Main from "./components/Main.js"
 
-function App() {
+export default function App() {
   return (
     <div >
-      <main />   
+      <Main />  
+      <img src="C:\Users\erace\scrimba\forAyesha\forAyesha\for-ayesha\src\images\asset1.jpg" /> 
     </div>
   );
 }
 
-export default App;
+
