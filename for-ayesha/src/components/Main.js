@@ -1,9 +1,11 @@
 import React from "react";
-import imgData from "../imgData"
+import imgData from "../imgData";
+
+
 
 export default function Main(){
 const [getCoupleImage, setGetCoupleImage] = React.useState("");
-    ///let src;
+    
     
     function getOurImage() {
         const ourImgArray = imgData.data.ourImg
@@ -17,11 +19,11 @@ const [getCoupleImage, setGetCoupleImage] = React.useState("");
             <button 
                 onClick={getOurImage}>
             </button>
-            <img src={getCoupleImage} />
-            <img src={require( `${getCoupleImage}` )} />
-           
+            <img src={getCoupleImage} alt="prop"/>
+          
           </div> 
+
     )
 
 }
-/*<img src={require('/images/image-name.png')} />*/
+
