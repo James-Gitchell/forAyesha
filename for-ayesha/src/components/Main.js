@@ -19,7 +19,7 @@ const [getCoupleImage, setGetCoupleImage] = React.useState("");
             <button 
                 onClick={getOurImage}>
             </button>
-            <img src={getCoupleImage} alt="prop"/>
+        
           
           </div> 
 
@@ -27,3 +27,4 @@ const [getCoupleImage, setGetCoupleImage] = React.useState("");
 
 }
 
+/*   /* <img src={getCoupleImage} alt="prop"/>*/
